@@ -1,5 +1,5 @@
 #!/bin/bash
-# Joe K
+# Joe Kaikaty
 
 WORKING_DIR=`pwd`
 OUT_DIR=${WORKING_DIR}/output
