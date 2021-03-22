@@ -3,18 +3,18 @@
 
 WORKING_DIR=`pwd`
 OUT_DIR=${WORKING_DIR}/output
-ANDROID_OUT="/media/joe/9a5c2d2d-67aa-4f00-b452-1ebf3f96578f/Android7.0/android/out/target/product/dolphin-fvd-p1"
-ANDROID_HOST="/media/joe/9a5c2d2d-67aa-4f00-b452-1ebf3f96578f/Android7.0/android/out/host/linux-x86/bin"
+ANDROID_OUT="ANDROID OUT DIRECTORY"
+ANDROID_HOST="ANDROID OUT HOST DIRECTORY"
 # Directories
-KERNEL_BUILD_DIR="/media/joe/9a5c2d2d-67aa-4f00-b452-1ebf3f96578f/Android7.0/android/kernel/linux-4.4"
-UBOOT_BUILD_DIR="/media/joe/9a5c2d2d-67aa-4f00-b452-1ebf3f96578f/Android7.0/android/external/u-boot"
+KERNEL_BUILD_DIR="KERNEL DIRECTORY"
+UBOOT_BUILD_DIR="UBOOT DIRECTORY"
 
 # Def Configs
 KERNEL_DEFCONFIG="sun8iw7p1smp_android_defconfig"
 UBOOT_DEFCONFIG="orangepi_plus2e_defconfig"
 
 # Cross Compile Path
-CROSS_COMPILE_DIR="/media/joe/9a5c2d2d-67aa-4f00-b452-1ebf3f96578f/Android7.0/android/prebuilts/gcc/linux-x86/arm/gcc-linaro-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-"
+CROSS_COMPILE_DIR="TOOLCHAIN DIRECTORY"
 
 # uboot Fragments
 UBOOT_FRAGMENTS=${WORKING_DIR}/common/uboot.config
