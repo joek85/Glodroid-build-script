@@ -129,7 +129,7 @@ INIT() {
 	fi
 }
 DELETE_OUTPUT_DIRECTORY() {
-	if [ ! -f ${OUT_DIR} ]; then
+	if [ -f ${OUT_DIR} ]; then
 		rm -rf ${OUT_DIR}
 	fi
 }
